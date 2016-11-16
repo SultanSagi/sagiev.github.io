@@ -21,7 +21,6 @@ body textarea:required:valid {
 section,
 .main_head {
   position: relative; }
- /*
   section h3,
   .main_head h3 {
     text-align: center;
@@ -62,7 +61,7 @@ section {
       margin-top: 60px;
       position: absolute;
       width: 150px; }
-*/
+
 .main_head {
   min-height: 480px;
   padding-top: 20px; }
@@ -93,11 +92,7 @@ section {
 
 .logo_container {
   float: left; }
-.navbar-brand {
-	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-	color: #fed136;
-	z-index: 100;
-}
+
 svg {
   height: 60px;
   width: 60px;
@@ -193,7 +188,6 @@ svg path {
   right: 0;
   top: 0;
   display: none; }
-  
   .top_mnu ul,
   .top_mnu li {
     list-style-type: none;
@@ -249,7 +243,7 @@ svg path {
     .top_wrapper .top_descr .top_centered {
       display: table-cell;
       text-align: center;
-      vertical-align: bottom; }
+      vertical-align: middle; }
   .top_wrapper .top_text {
     display: inline-block;
     -webkit-transition: all 1s ease;
@@ -263,6 +257,7 @@ svg path {
       display: inline-block;
       padding: 10px 35px;
       color: #fff;
+      border: 8px solid #fff;
       text-transform: uppercase;
       font-weight: bold;
       font-size: 2.8em;
@@ -271,7 +266,7 @@ svg path {
       margin-right: 20px;
       -webkit-animation-delay: 0.5s;
       animation-delay: 0.5s; }
-/*
+
 .toggle_mnu {
   background-color: #000; }
 
@@ -471,5 +466,3 @@ svg path {
     text-indent: 12px;
     font-size: 12px;
     background-color: transparent; }
-	
-*/
